@@ -59,6 +59,7 @@ h6 span{
   position: absolute;
   left: -9999px;
 }
+
 .checkbox:checked + label,
 .checkbox:not(:checked) + label{
   position: relative;
@@ -71,6 +72,8 @@ h6 span{
   margin: 10px auto;
   cursor: pointer;
   background-color: #ffeba7;
+
+  visibility: hidden;
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before{
@@ -176,8 +179,8 @@ h6 span{
     padding: 0;
 }
 .form-style {
-  padding: 13px 20px;
-  padding-left: 55px;
+  padding: 13px 30px;
+  padding-left: 30px;
   height: 48px;
   width: 50%;
   font-weight: 500;
@@ -296,7 +299,9 @@ h6 span{
   color: #ffeba7;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
-
+#numSiren {
+    text-align: center;
+}
 
 .valide {
   color: green;

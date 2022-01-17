@@ -3,7 +3,7 @@
 
 // Récuperation du numéro de siren entrée
 function getSiren() {
-    var sirenEnter = document.getElementById("numSirene").value;
+    var sirenEnter = document.getElementById("numSiren").value;
     // retourne false si le numéro de siren est vide
     if (sirenEnter == "") {
         return false;

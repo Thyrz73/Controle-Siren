@@ -19,8 +19,8 @@
 				<div class="col-12 text-center align-self-center py-5">
 					<div class="section pb-5 pt-5 pt-sm-2 text-center">
 			          	<label for="reg-log"></label>
-                          <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
-                           <label for="reg-log"></label>
+						<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+                        <label for="reg-log"></label>
 						<div class="card-3d-wrap mx-auto">
 							<div class="card-3d-wrapper">
 								<div class="card-front">
@@ -28,26 +28,22 @@
 										<div class="section text-center">
 											<h4 class="mb-4 pb-3">Controle du numéro de SIREN</h4>
 											<div class="form-group">
-												<input type="text" id="numSirene" name="numSirene" class="form-style" placeholder="Numéo de SIREN" id="logemail" autocomplete="off">
-											
-                                                <button class="btn mt-4" onclick="displaySiren()">
-											<a href="#" class="btn" >Vérifier le numéro de SIREN</a> </button>
-				      					</div>
+												<input type="text" id="numSiren" class="form-style" placeholder="Numéro de SIREN"  autocomplete="off">
+                                                <button class="btn mt-4" onclick="displaySiren()">Vérifier le numéro de SIREN </button>
+				      						</div>
+			      						</div>
 			      					</div>
 			      				</div>
-								
-			      					</div>
-                                      <div class="card-back">
-                                        <div class="center-wrap">
-                                            <div class="section text-center">
-                                                <h4 class="mb-4 pb-3">Information sur le SIREN</h4>
-                                                <div id="infoSireneContent">
-                                                    <h5>Aucune information disponible</h5>
-                                                </div>
-                                                <button class="btn mt-4" onclick="document.getElementById('reg-log').checked = false;">
-                                                    <a href="#" class="btn" >Tester un autre numéro</a> </button>
-                                          </div>
-                                      </div>
+                                <div class="card-back">
+									<div class="center-wrap">
+                                        <div class="section text-center">
+                                            <h4 class="mb-4 pb-3">Information sur le SIREN</h4>
+                                            <div id="infoSireneContent">
+                                                <h5>Aucune information disponible</h5>
+                                            </div>
+                                            <button class="btn mt-4" onclick="document.getElementById('reg-log').checked = false;">Tester un autre numéro </button>
+										</div>
+									</div>
 			      				</div>
 			      			</div>
 			      		</div>
